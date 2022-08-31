@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T06:12:28.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="f0p91nzJH6nWUASV3649" type="github"><diagram id="WOKK_zX9-oph1E145jrz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-31T06:14:37.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EGDx8zzqUzbgvJY0VQtr" version="20.2.7" type="github">
+  <diagram id="WOKK_zX9-oph1E145jrz" name="第 1 页">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gUtFmB019ENjmxl0vDkh-1" value="平台基础" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUtFmB019ENjmxl0vDkh-2" value="基础功能" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUtFmB019ENjmxl0vDkh-3" value="门诊" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUtFmB019ENjmxl0vDkh-4" value="住院" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
