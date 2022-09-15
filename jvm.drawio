@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T13:15:36.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="S17nHk76AZv4vC7vTu8t" version="20.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T13:38:30.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6lGeiJOZYXLpf_ckFbX7" version="20.3.1" type="github">
   <diagram id="fM--O3HOY4V_WTV2BpW2" name="第 1 页">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="mF8VcQJTHpdBpOLF4Zem-33" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="88.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mF8VcQJTHpdBpOLF4Zem-35" value="hotspot jvm 虚拟机" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="58.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
