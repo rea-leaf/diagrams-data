@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T13:39:21.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="68_SRiToBKQsOdX71JvG" version="20.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T05:32:30.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CSXTiGypO4GAp1tp96-T" version="20.3.1" type="github" pages="2">
   <diagram id="fM--O3HOY4V_WTV2BpW2" name="jvm 虚拟机结构">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DzRIMEUqt4arAC-24XLq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-3" target="DzRIMEUqt4arAC-24XLq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-3" value="Loading(装载)阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-4" value="类加载器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-5" target="DzRIMEUqt4arAC-24XLq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-5" target="DzRIMEUqt4arAC-24XLq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-5" value="Linking(链接)阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-7" value="Initialization(初始化)阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="427.5" width="50" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
