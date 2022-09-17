@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T08:41:41.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xNBGeDmEKZ1UjtVzwfvl" version="20.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T09:47:32.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OFSGBJKzEOZgay4G8kY-" version="20.3.1" type="github" pages="2">
   <diagram id="fM--O3HOY4V_WTV2BpW2" name="jvm 虚拟机结构">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,6 +151,33 @@
         </mxCell>
         <mxCell id="DzRIMEUqt4arAC-24XLq-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;初始化阶段，简言之，为类的静态变量赋予正确的初始值。(显式初始化)&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="600" y="230" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-33" target="DzRIMEUqt4arAC-24XLq-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-33" value="系统类加载器（Bootstrap ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="354" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-34" target="DzRIMEUqt4arAC-24XLq-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-34" value="扩展类加载器（Extension ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="354" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-36" target="DzRIMEUqt4arAC-24XLq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-36" target="DzRIMEUqt4arAC-24XLq-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-36" value="应用类加载器(AppClassLoader)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="354" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-38" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-40" value="自定义类加载器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
