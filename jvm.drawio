@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T05:38:47.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HO218U9WQOz-yoWwZ0-2" version="20.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T05:55:30.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4E6WULVcX8B14uj5VAD5" version="20.3.1" type="github" pages="2">
   <diagram id="fM--O3HOY4V_WTV2BpW2" name="jvm 虚拟机结构">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,14 +77,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ImrX3Z7fh1GfxlH-j8y4" name="类加载器">
-    <mxGraphModel dx="1022" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DzRIMEUqt4arAC-24XLq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-3" target="DzRIMEUqt4arAC-24XLq-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-3" value="Loading(装载)阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-3" value="Loading(装载)阶段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DzRIMEUqt4arAC-24XLq-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;类加载器&amp;nbsp; &amp;nbsp; 类加载过程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -96,16 +96,19 @@
         <mxCell id="DzRIMEUqt4arAC-24XLq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-5" target="DzRIMEUqt4arAC-24XLq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-5" value="Linking(链接)阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-5" value="Linking(链接)阶段" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-7" value="Initialization(初始化)阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-7" value="Initialization(初始化)阶段" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="550" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DzRIMEUqt4arAC-24XLq-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="355" y="427.5" width="50" height="285" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-13" value="1-环节1：链接阶段之Verification(验证)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-13" target="DzRIMEUqt4arAC-24XLq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-13" value="1-环节1：链接阶段之Verification(验证)&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="180" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DzRIMEUqt4arAC-24XLq-17" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
@@ -117,11 +120,26 @@
         <mxCell id="DzRIMEUqt4arAC-24XLq-19" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="600" y="420" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-20" value="2-环节2：链接阶段之Preparation(准备)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-20" target="DzRIMEUqt4arAC-24XLq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-20" value="2-环节2：链接阶段之Preparation(准备)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DzRIMEUqt4arAC-24XLq-21" value="3-环节3：链接阶段之Resolution(解析)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DzRIMEUqt4arAC-24XLq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="DzRIMEUqt4arAC-24XLq-21" target="DzRIMEUqt4arAC-24XLq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-21" value="3-环节3：链接阶段之Resolution(解析)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-23" value="保证加载的字节码是合法、合理并符合规范的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-25" value="为类的静态变量分配内存。并初始化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="330" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DzRIMEUqt4arAC-24XLq-27" value="将类、接口、字段和方法的符号引用转为直接引用。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="480" y="740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
