@@ -1,26 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T05:56:36.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Y2Bz1BW0TZ7wImRyxQiS" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T06:11:12.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HGM94qqHOTkJ7O0n3mHx" version="21.1.8" type="github">
   <diagram name="第 1 页" id="zQPfo8QOFPiPV3o0EhCK">
     <mxGraphModel dx="794" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5U9VxCFmSAjXmchOCSpf-1" target="5U9VxCFmSAjXmchOCSpf-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5U9VxCFmSAjXmchOCSpf-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-1" value="应用程序app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;redis缓存击穿&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="60" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5U9VxCFmSAjXmchOCSpf-3" target="5U9VxCFmSAjXmchOCSpf-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-3" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
-          <mxGeometry x="155" y="270" width="50" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="5U9VxCFmSAjXmchOCSpf-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
-          <mxGeometry x="161.25" y="410" width="37.5" height="50" as="geometry" />
+        <mxCell id="5U9VxCFmSAjXmchOCSpf-8" value="&lt;h1&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 18px; text-align: center;&quot;&gt;redis缓存击穿&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;box-sizing: border-box; user-select: auto !important; font-weight: bold; padding-right: 6px;&quot; class=&quot;ne-list-symbol&quot;&gt;&lt;/span&gt;问题来源&lt;span style=&quot;box-sizing: border-box; user-select: none; display: inline; min-width: 1px; vertical-align: baseline; font-size: 1em; height: 1em;&quot; class=&quot;ne-viewer-b-filler&quot;&gt;&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/span&gt;缓存击穿是指缓存中没有但数据库中有的数据（一般是缓存时间到期），这时由于并发用户特别多，同时读缓存没读到数据，又同时去数据库去取数据，引起数据库压力瞬间增大，造成过大压力。&lt;span style=&quot;box-sizing: border-box; user-select: none; display: inline; min-width: 1px; vertical-align: baseline; font-size: 1em; height: 1em;&quot; class=&quot;ne-viewer-b-filler&quot;&gt;&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; user-select: auto !important; font-weight: bold; padding-right: 6px;&quot; class=&quot;ne-list-symbol&quot;&gt;&lt;span style=&quot;box-sizing: border-box; user-select: auto !important; display: inline-block; transform: scale(0.5);&quot;&gt;●&lt;/span&gt;&lt;/span&gt;解决方案&lt;span style=&quot;box-sizing: border-box; user-select: none; display: inline; min-width: 1px; vertical-align: baseline; font-size: 1em; height: 1em;&quot; class=&quot;ne-viewer-b-filler&quot;&gt;&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/span&gt;1、设置热点数据永远不过期。&lt;span style=&quot;box-sizing: border-box; user-select: none; display: inline; min-width: 1px; vertical-align: baseline; font-size: 1em; height: 1em;&quot; class=&quot;ne-viewer-b-filler&quot;&gt;&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/span&gt;2、接口限流与熔断，降级。重要的接口一定要做好限流策略，防止用户恶意刷接口，同时要降级准备，当接口中的某些 服务 不可用时候，进行熔断，失败快速返回机制。&lt;span style=&quot;box-sizing: border-box; user-select: none; display: inline; min-width: 1px; vertical-align: baseline; font-size: 1em; height: 1em;&quot; class=&quot;ne-viewer-b-filler&quot;&gt;&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/span&gt;3、加互斥锁&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="40" width="795" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
